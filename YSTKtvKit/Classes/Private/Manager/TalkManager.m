@@ -136,11 +136,13 @@
 
 #pragma mark - AudioUnitDelegate AudioBufferList
 - (void)audioUnitBuffer:(AudioBufferList *)bufferList {
-//    self.encoder = [[BBAudioHardEncoder alloc] init];
-//    self.encoder.config = [BBAudioConfig defaultConfig];
-//    [self.encoder encodeWithBufferList:*bufferList completianBlock:^(NSData *encodedData, NSError *error) {
+    self.encoder = [[BBAudioHardEncoder alloc] init];
+    self.encoder.config = [BBAudioConfig defaultConfig];
+    [self.encoder encodeWithBufferList:*bufferList completianBlock:^(NSData *encodedData, NSError *error) {
+
+        NSLog(@"out buffer: %@", [NSNumber numberWithInt:encodedData.length]);
 //        [self.socket sendMessage:encodedData];
-//    }];
+    }];
 }
 
 #pragma mark - AACSendDelegate AACData

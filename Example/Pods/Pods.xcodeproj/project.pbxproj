@@ -817,11 +817,79 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		325C71B3014CF7C300A70809F9EF44C9 /* Release */ = {
+		0C3B5E2104A230B4DD5326B745001173 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 484F181E79DF4D4B8FB97F7C4BA16B4A /* Pods-YSTKtvKit_Example.release.xcconfig */;
+			baseConfigurationReference = A8A78725067CE4EAFA772F381ED53A8C /* Pods-YSTKtvKit_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YSTKtvKit_Tests/Pods-YSTKtvKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YSTKtvKit_Tests/Pods-YSTKtvKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		379144166897CDE99460ECFD3569F3F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74AEAD491BBF97604A5B7045A18A6721 /* MGJRouter.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MGJRouter/MGJRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGJRouter/MGJRouter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGJRouter/MGJRouter.modulemap";
+				PRODUCT_MODULE_NAME = MGJRouter;
+				PRODUCT_NAME = MGJRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		58AA9C0AC96808B205208A365051B345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7080C58EDAD25EE6276BB50CD0C6BFA /* Pods-YSTKtvKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -832,7 +900,41 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-YSTKtvKit_Example/Pods-YSTKtvKit_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YSTKtvKit_Example/Pods-YSTKtvKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58F9A36A0AD1AD88C7AFCF0B0AC78DEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 484F181E79DF4D4B8FB97F7C4BA16B4A /* Pods-YSTKtvKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YSTKtvKit_Example/Pods-YSTKtvKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-YSTKtvKit_Example/Pods-YSTKtvKit_Example.modulemap";
@@ -850,10 +952,11 @@
 			};
 			name = Release;
 		};
-		401DA9F8B3C520B07897705A222984F3 /* Release */ = {
+		821EAE7959DEC48906092E662229BFA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1AFAEB3F4EE2B017837DFE8D3606F35A /* YSTKtvKit.release.xcconfig */;
+			baseConfigurationReference = BE9C1E80C2439E025F0308092D3FB1FD /* YSTKtvKit.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -865,7 +968,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/YSTKtvKit/YSTKtvKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/YSTKtvKit/YSTKtvKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/YSTKtvKit/YSTKtvKit.modulemap";
 				PRODUCT_MODULE_NAME = YSTKtvKit;
@@ -874,13 +977,29 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
+		913C271956E3F1C6D050C7036092A428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE9C1E80C2439E025F0308092D3FB1FD /* YSTKtvKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YSTKtvKit";
+				IBSC_MODULE = YSTKtvKit;
+				INFOPLIST_FILE = "Target Support Files/YSTKtvKit/ResourceBundle-YSTKtvKit-YSTKtvKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = YSTKtvKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		963BD7925C123C698115AE45CD264E7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -930,7 +1049,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -942,42 +1061,28 @@
 			};
 			name = Release;
 		};
-		47ED13758F1285FA505901CC6AC05071 /* Debug */ = {
+		A9B6D0B805F214407B58C217C0D4A1F5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F941EA18A17FB454FF2A175898D583B8 /* Pods-YSTKtvKit_Tests.debug.xcconfig */;
+			baseConfigurationReference = 1AFAEB3F4EE2B017837DFE8D3606F35A /* YSTKtvKit.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YSTKtvKit_Tests/Pods-YSTKtvKit_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YSTKtvKit_Tests/Pods-YSTKtvKit_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YSTKtvKit";
+				IBSC_MODULE = YSTKtvKit;
+				INFOPLIST_FILE = "Target Support Files/YSTKtvKit/ResourceBundle-YSTKtvKit-YSTKtvKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = YSTKtvKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
-		4D3522B592B7A3B6FC056C9FF0E4921A /* Debug */ = {
+		AAA861AD51B77729E6B5A924D61B229A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE9C1E80C2439E025F0308092D3FB1FD /* YSTKtvKit.debug.xcconfig */;
+			baseConfigurationReference = 661A82C27143FF39B50949FE02741AED /* MGJRouter.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -986,14 +1091,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YSTKtvKit/YSTKtvKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YSTKtvKit/YSTKtvKit-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MGJRouter/MGJRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGJRouter/MGJRouter-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YSTKtvKit/YSTKtvKit.modulemap";
-				PRODUCT_MODULE_NAME = YSTKtvKit;
-				PRODUCT_NAME = YSTKtvKit;
+				MODULEMAP_FILE = "Target Support Files/MGJRouter/MGJRouter.modulemap";
+				PRODUCT_MODULE_NAME = MGJRouter;
+				PRODUCT_NAME = MGJRouter;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1003,11 +1108,13 @@
 			};
 			name = Debug;
 		};
-		56FD0B3195BE26A73777AC15A4FA86EC /* Release */ = {
+		C797831F9573F0C6D09AFD19BD580514 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8A78725067CE4EAFA772F381ED53A8C /* Pods-YSTKtvKit_Tests.release.xcconfig */;
+			baseConfigurationReference = F941EA18A17FB454FF2A175898D583B8 /* Pods-YSTKtvKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1018,7 +1125,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-YSTKtvKit_Tests/Pods-YSTKtvKit_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-YSTKtvKit_Tests/Pods-YSTKtvKit_Tests.modulemap";
@@ -1030,13 +1137,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		79759604D78320E712558F49DF19AA9F /* Debug */ = {
+		E8256E1B894D64F9B6D6E0F27C2CABC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1089,7 +1195,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1102,10 +1208,11 @@
 			};
 			name = Debug;
 		};
-		905C2A1A6B1FC813C8F55F2114CC0E65 /* Debug */ = {
+		F13D72D4287881371E1C10B2A531E04F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 661A82C27143FF39B50949FE02741AED /* MGJRouter.debug.xcconfig */;
+			baseConfigurationReference = 1AFAEB3F4EE2B017837DFE8D3606F35A /* YSTKtvKit.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1114,60 +1221,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MGJRouter/MGJRouter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MGJRouter/MGJRouter-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/YSTKtvKit/YSTKtvKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YSTKtvKit/YSTKtvKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MGJRouter/MGJRouter.modulemap";
-				PRODUCT_MODULE_NAME = MGJRouter;
-				PRODUCT_NAME = MGJRouter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		913C271956E3F1C6D050C7036092A428 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE9C1E80C2439E025F0308092D3FB1FD /* YSTKtvKit.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YSTKtvKit";
-				IBSC_MODULE = YSTKtvKit;
-				INFOPLIST_FILE = "Target Support Files/YSTKtvKit/ResourceBundle-YSTKtvKit-YSTKtvKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = "Target Support Files/YSTKtvKit/YSTKtvKit.modulemap";
+				PRODUCT_MODULE_NAME = YSTKtvKit;
 				PRODUCT_NAME = YSTKtvKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		9A47BB2F3F19ED2755D6EF1F21465BD7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74AEAD491BBF97604A5B7045A18A6721 /* MGJRouter.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MGJRouter/MGJRouter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MGJRouter/MGJRouter-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MGJRouter/MGJRouter.modulemap";
-				PRODUCT_MODULE_NAME = MGJRouter;
-				PRODUCT_NAME = MGJRouter;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1178,63 +1239,14 @@
 			};
 			name = Release;
 		};
-		A9B6D0B805F214407B58C217C0D4A1F5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1AFAEB3F4EE2B017837DFE8D3606F35A /* YSTKtvKit.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YSTKtvKit";
-				IBSC_MODULE = YSTKtvKit;
-				INFOPLIST_FILE = "Target Support Files/YSTKtvKit/ResourceBundle-YSTKtvKit-YSTKtvKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = YSTKtvKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		DC395528F57C22A4BEC41372FC9E2FDA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7080C58EDAD25EE6276BB50CD0C6BFA /* Pods-YSTKtvKit_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YSTKtvKit_Example/Pods-YSTKtvKit_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YSTKtvKit_Example/Pods-YSTKtvKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				79759604D78320E712558F49DF19AA9F /* Debug */,
-				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
+				E8256E1B894D64F9B6D6E0F27C2CABC5 /* Debug */,
+				963BD7925C123C698115AE45CD264E7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1242,8 +1254,8 @@
 		75E71C8895A1E5907D730E7157F614E6 /* Build configuration list for PBXNativeTarget "Pods-YSTKtvKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				47ED13758F1285FA505901CC6AC05071 /* Debug */,
-				56FD0B3195BE26A73777AC15A4FA86EC /* Release */,
+				C797831F9573F0C6D09AFD19BD580514 /* Debug */,
+				0C3B5E2104A230B4DD5326B745001173 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1251,8 +1263,8 @@
 		B09AA10282A759D6B8662AD46C2CCA5A /* Build configuration list for PBXNativeTarget "Pods-YSTKtvKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC395528F57C22A4BEC41372FC9E2FDA /* Debug */,
-				325C71B3014CF7C300A70809F9EF44C9 /* Release */,
+				58AA9C0AC96808B205208A365051B345 /* Debug */,
+				58F9A36A0AD1AD88C7AFCF0B0AC78DEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1260,8 +1272,8 @@
 		E7A6851343DBFB174E61DEB5AB05F951 /* Build configuration list for PBXNativeTarget "YSTKtvKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D3522B592B7A3B6FC056C9FF0E4921A /* Debug */,
-				401DA9F8B3C520B07897705A222984F3 /* Release */,
+				821EAE7959DEC48906092E662229BFA3 /* Debug */,
+				F13D72D4287881371E1C10B2A531E04F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1278,8 +1290,8 @@
 		FFA6FF64C90AD81C7D78C7DAE7FC16B0 /* Build configuration list for PBXNativeTarget "MGJRouter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				905C2A1A6B1FC813C8F55F2114CC0E65 /* Debug */,
-				9A47BB2F3F19ED2755D6EF1F21465BD7 /* Release */,
+				AAA861AD51B77729E6B5A924D61B229A /* Debug */,
+				379144166897CDE99460ECFD3569F3F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

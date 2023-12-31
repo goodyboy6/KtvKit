@@ -203,7 +203,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				1F52E8D0EF0EEB175BFB752D /* [CP] Embed Pods Frameworks */,
-				41770E8FC7294692D48A8000 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,8 +221,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				6D8D3150ECE4C3DC1A0CAE84 /* [CP] Embed Pods Frameworks */,
-				2401449EBEC48ACBF4E0C4D3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,7 +243,7 @@
 				ORGANIZATIONNAME = kuqiqi;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = Z2LXC398CD;
+						DevelopmentTeam = Y2UYF9K443;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -258,6 +255,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -301,7 +299,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-YSTKtvKit_Example/Pods-YSTKtvKit_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-YSTKtvKit_Example/Pods-YSTKtvKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MGJRouter/MGJRouter.framework",
 				"${BUILT_PRODUCTS_DIR}/YSTKtvKit/YSTKtvKit.framework",
 			);
@@ -312,52 +310,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YSTKtvKit_Example/Pods-YSTKtvKit_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2401449EBEC48ACBF4E0C4D3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YSTKtvKit_Tests/Pods-YSTKtvKit_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		41770E8FC7294692D48A8000 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YSTKtvKit_Example/Pods-YSTKtvKit_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6D8D3150ECE4C3DC1A0CAE84 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YSTKtvKit_Tests/Pods-YSTKtvKit_Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YSTKtvKit_Example/Pods-YSTKtvKit_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C704E4EE8A03FC283B5542B0 /* [CP] Check Pods Manifest.lock */ = {
@@ -532,7 +485,7 @@
 			baseConfigurationReference = B15E8F45D673AE7611C89E0E /* Pods-YSTKtvKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Z2LXC398CD;
+				DEVELOPMENT_TEAM = Y2UYF9K443;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YSTKtvKit/YSTKtvKit-Prefix.pch";
 				INFOPLIST_FILE = "YSTKtvKit/YSTKtvKit-Info.plist";
@@ -548,7 +501,7 @@
 			baseConfigurationReference = 75D6D17BA4B44C15A9265780 /* Pods-YSTKtvKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Z2LXC398CD;
+				DEVELOPMENT_TEAM = Y2UYF9K443;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YSTKtvKit/YSTKtvKit-Prefix.pch";
 				INFOPLIST_FILE = "YSTKtvKit/YSTKtvKit-Info.plist";
